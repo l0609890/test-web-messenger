@@ -6,6 +6,8 @@ app.use(express.static(path.join(__dirname, 'build')));
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });
 
-app.get("/")
+app.get("/classrooms", (req, res) => {
+  res.json("Yo mama")
+})
 
 app.listen(9000);
