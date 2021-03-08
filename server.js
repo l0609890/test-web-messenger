@@ -10,4 +10,8 @@ app.get("/classrooms", (req, res) => {
   res.json("Yo mama")
 })
 
+app.get("/mason", (req, res) => {
+  res.json("hello")
+})
+
 app.listen(9000);
