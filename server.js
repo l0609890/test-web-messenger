@@ -14,4 +14,6 @@ app.get("/mason", (req, res) => {
   res.json("hello")
 })
 
-app.listen(9000);
+app.listen(9000, () => {
+  console.log(process.env)
+});
